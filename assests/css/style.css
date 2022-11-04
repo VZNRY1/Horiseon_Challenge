@@ -21,11 +21,11 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*.header h1 .seo {
     color: #d9dcd6;
-}
+}*/
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,11 +34,11 @@ body {
     background-color: #2a607c;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -61,6 +61,12 @@ p {
     background-position: center;
 }
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,11 +77,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
 
 .benefits {
     margin-right: 20px;
@@ -93,6 +95,10 @@ p {
     color: #ffffff;
 }
 
+.benefit-lead img {
+    position: relative;
+    
+}
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
